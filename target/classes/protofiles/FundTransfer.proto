@@ -1,0 +1,34 @@
+syntax = "proto3";
+package epiclanka;
+option java_package = "com.epic.digital.platform.converter.proto";
+option java_outer_classname ="FundTransfer";
+
+message Transcation{
+	int32 mode =1;
+	string fromAccount=2;
+	string toAccount=3;
+	string txnAmount=4;
+	string dateTime=5;
+	string narration=6;
+	string payeeId=7;
+	string payeeName=8;
+	string toBank=9;
+	string toBranch=10;
+	string recieverName=11;
+	string receiverId=12;
+	string currency=13;
+	string recieverAddress=14;
+	string purpose=15;
+	string chgAmt=16;
+	string branchName=17;
+	string bankName=18;
+	string holderName=19;
+	string transactionID=20;
+	string modeOfOperation=21;
+	string latitude=22;
+	string longitude=23;
+	string fromProductType=24;
+	string toProductType=25;
+	string userId=26;
+	
+}
